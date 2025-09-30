@@ -1,0 +1,17 @@
+{
+  "recommendations": [
+    // CORE - Essential extensions for all projects
+    "esbenp.prettier-vscode",
+    "pdconsec.vscode-print",
+    "PKief.material-icon-theme",
+
+    // PYTHON - Essential for Python development
+    "ms-python.python"
+    //"ms-python.autopep8"
+    //"ms-python.black-formatter"
+
+    // django
+    // jupyter
+    // markdown
+  ]
+}

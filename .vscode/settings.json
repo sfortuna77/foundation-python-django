@@ -1,0 +1,37 @@
+{
+  // Auto save off to prevent conflicts with black formatting
+  "files.autoSave": "off",
+
+  // Format on save for all files
+  "editor.formatOnSave": true,
+
+  // Use Prettier as the default formatter for all file types
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+
+  // Set a comfortable font size for better readability
+  "editor.fontSize": 18,
+
+  // Set terminal font size to match editor font size
+  "terminal.integrated.fontSize": 18,
+
+  // Set default terminal to Command Prompt on Windows
+  "terminal.integrated.defaultProfile.windows": "Command Prompt",
+
+  // Python specific settings
+  "python.defaultInterpreterPath": "./.venv/bin/python",
+  //"python.formatting.provider": "black",
+  //"python.linting.enabled": true,
+  //"python.linting.pylintEnabled": true,
+
+  //"[python]": {
+  //  "editor.defaultFormatter": "ms-python.black-formatter",
+  //  "editor.formatOnSave": true,
+  //  "editor.tabSize": 4
+  //},
+
+  //"[python]": { "editor.defaultFormatter": "ms-python.autopep8" },
+
+  // Material Theme settings
+  "workbench.iconTheme": "material-icon-theme",
+  "material-icon-theme.opacity": 0.8
+}
